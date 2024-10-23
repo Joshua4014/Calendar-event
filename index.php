@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scheduling</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./fullcalendar/lib/main.min.css">
-<script src="./js/jquery-3.6.0.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./fullcalendar/lib/main.min.js"></script>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="main.min.css">
+<script src=".jquery-3.6.0.min.js"></script>
+<script src=".bootstrap.min.js"></script>
+<script src=".main.min.js"></script>
 <style>
   /* Add your styles here */
 :root {
@@ -87,6 +87,6 @@ if (isset($conn)) $conn->close();
 <script>
 var scheds = $.parseJSON('<?= json_encode($sched_res) ?>')
 </script>
-<script src="./js/script.js"></script>
+<script src="script.js"></script>
 
 </html>
